@@ -1,0 +1,47 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Key="Default">
+            <SolidColorBrush x:Key="RibbonCustomItemBorderBrush" Color="Transparent"/>
+            <SolidColorBrush x:Key="RibbonCustomItemBackgroundBrush" Color="Transparent"/>
+            <SolidColorBrush x:Key="RibbonCustomItemBackgroundHoverBrush" Color="#30FFFFFF"/>
+            <SolidColorBrush x:Key="RibbonCustomItemBackgroundPressedBrush" Color="#FFD2D2D2"/>
+            <SolidColorBrush x:Key="RibbonCustomItemForegroundBrush" Color="#AA217396"/>
+            <SolidColorBrush x:Key="RibbonCustomItemForegroundHoverBrush" Color="#EE217346"/>
+            <SolidColorBrush x:Key="RibbonCustomItemForegroundPressedBrush" Color="#FF217346"/>
+            <SolidColorBrush x:Key="RibbonCustomItemIconForegroundBrush" Color="#AA217396"/>
+            <SolidColorBrush x:Key="RibbonCustomItemIconForegroundHoverBrush" Color="#EE217346"/>
+            <SolidColorBrush x:Key="RibbonCustomItemIconForegroundPressedBrush" Color="#FF217346"/>
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="Light">
+            <SolidColorBrush x:Key="RibbonCustomItemBorderBrush" Color="Transparent"/>
+            <SolidColorBrush x:Key="RibbonCustomItemBackgroundBrush" Color="Transparent"/>
+            <SolidColorBrush x:Key="RibbonCustomItemBackgroundHoverBrush" Color="#30000000"/>
+            <SolidColorBrush x:Key="RibbonCustomItemBackgroundPressedBrush" Color="#FFD2D2D2"/>
+            <SolidColorBrush x:Key="RibbonCustomItemForegroundBrush" Color="#FF208346"/>
+            <SolidColorBrush x:Key="RibbonCustomItemForegroundHoverBrush" Color="#DD217346"/>
+            <SolidColorBrush x:Key="RibbonCustomItemForegroundPressedBrush" Color="#FF216346"/>
+            <SolidColorBrush x:Key="RibbonCustomItemIconForegroundBrush" Color="#FF208346"/>
+            <SolidColorBrush x:Key="RibbonCustomItemIconForegroundHoverBrush" Color="#DD217346"/>
+            <SolidColorBrush x:Key="RibbonCustomItemIconForegroundPressedBrush" Color="#FF216346"/>
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+
+    <ResourceDictionary x:Key="Win8">
+        <ResourceDictionary.ThemeDictionaries>
+            <ResourceDictionary x:Key="Default">
+                <SolidColorBrush x:Key="RibbonCustomItemForegroundBrush" Color="#AA819146"/>
+                <SolidColorBrush x:Key="RibbonCustomItemForegroundHoverBrush" Color="#AA614316"/>
+                <SolidColorBrush x:Key="RibbonCustomItemIconForegroundBrush" Color="#AA819146"/>
+                <SolidColorBrush x:Key="RibbonCustomItemIconForegroundHoverBrush" Color="#AA614316"/>
+            </ResourceDictionary>
+            <ResourceDictionary x:Key="Light">
+                <SolidColorBrush x:Key="RibbonCustomItemForegroundBrush" Color="#FF910046"/>
+                <SolidColorBrush x:Key="RibbonCustomItemForegroundHoverBrush" Color="#AA61002D"/>
+                <SolidColorBrush x:Key="RibbonCustomItemIconForegroundBrush" Color="#FF910046"/>
+                <SolidColorBrush x:Key="RibbonCustomItemIconForegroundHoverBrush" Color="#AA61002D"/>
+            </ResourceDictionary>
+        </ResourceDictionary.ThemeDictionaries>
+    </ResourceDictionary>
+</ResourceDictionary>
