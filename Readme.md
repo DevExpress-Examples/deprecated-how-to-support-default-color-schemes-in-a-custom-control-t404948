@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[CustomItemColors.xaml](./CS/Themes/CustomItemColors.xaml) (VB: [CustomItemColors.xaml](./VB/Themes/CustomItemColors.xaml))**
+* [generic.xaml](./CS/Themes/generic.xaml) (VB: [generic.xaml](./VB/Themes/generic.xaml))
+<!-- default file list end -->
 # [Deprecated] How to support default Color Schemes in a custom control
 
 
